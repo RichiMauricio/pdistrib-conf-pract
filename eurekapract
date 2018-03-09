@@ -1,0 +1,8 @@
+spring.application.name=eurekapract
+server.port=8761
+
+eureka.client.registerWithEureka=false
+eureka.client.fetchRegistry=false
+
+#para el cliente
+eureka.client.serviceUrl.defaultZone=http://eurekapract:8761/eureka
